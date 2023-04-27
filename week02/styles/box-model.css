@@ -1,11 +1,22 @@
 .callout { 
-    height: 500px;
     max-width: 1500px;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+    background-color: aqua;
+    text-decoration-color: white;
     
 	
 }
 
 .callout img {
+    float: right;
+    margin: 0%;
+    border: 0cm;
+    padding: 0%;
+    background-color: aliceblue;
+    height: 200;
+    width: 150;
 	
 }
 
@@ -15,5 +26,10 @@ blockquote {
 }
 
 cite {
+    display: inline-block;
+    border-top: solid;
+    padding-top: 10%;
+    text-align: left;
+    font-size: small;
 	
 }
