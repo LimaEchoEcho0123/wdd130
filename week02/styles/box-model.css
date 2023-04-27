@@ -31,7 +31,8 @@ blockquote {
 }
 
 cite {
-    margin-bottom: 5px;
+    position: absolute;
+    right: 0px;
     display:inline-block;
     border-top: dotted;
     padding-top: 5%;
