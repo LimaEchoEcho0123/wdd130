@@ -31,12 +31,11 @@ blockquote {
 }
 
 cite {
-    max-width: 700px;
     display:inline-block;
     border-top: dotted;
     padding-top: 20%;
     font-family: 'Times New Roman', Times, serif;
-    text-align: end;
+    text-align: right;
     font-size: large;
     color: white;
 }
