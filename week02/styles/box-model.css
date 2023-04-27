@@ -31,9 +31,9 @@ blockquote {
 }
 
 cite {
-    /* display:inline-block; */
+    display:inline-block;
     border-top: dotted;
-    padding-top: 5%;
+    padding-top: 20%;
     font-family: 'Times New Roman', Times, serif;
     text-align: end;
     font-size: large;
