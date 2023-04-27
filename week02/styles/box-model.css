@@ -32,10 +32,10 @@ blockquote {
 
 cite {
     position: absolute;
-    right: 1000px;
+    right:700px;
     display:inline-block;
     border-top: dotted;
-    padding-top: 5%;
+    padding-top: 1%;
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
     font-size: large;
