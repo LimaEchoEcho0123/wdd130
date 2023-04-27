@@ -31,7 +31,7 @@ blockquote {
 }
 
 cite {
-    display:inline-block;
+    /* display:inline-block; */
     border-top: dotted;
     padding-top: 5%;
     font-family: 'Times New Roman', Times, serif;
