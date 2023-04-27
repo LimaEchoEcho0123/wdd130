@@ -1,5 +1,5 @@
 .callout { 
-    max-height: 1000px;
+    max-height: 500px;
     max-width: 500px;
     margin: 5px;
     border: 5px;
@@ -25,7 +25,7 @@ blockquote {
     margin: 15px 60px 15px 30px;
     display: inline-block;
     text-align: left;
-    font-size: x-large;
+    font-size: large;
     color: white;
 }
 
@@ -34,6 +34,6 @@ cite {
     border-top: solid;
     padding-top: 10%;
     text-align: right;
-    font-size: x-large;
+    font-size: large;
     color: white;
 }
