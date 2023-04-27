@@ -26,14 +26,15 @@ blockquote {
     margin: 15px 100px 15px 30px;
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
+    font-size: xx-large;
     color: white;
 }
 
 cite {
+    margin-bottom: 5px;
     display:inline-block;
     border-top: dotted;
-    padding-top: 20%;
+    padding-top: 5%;
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
     font-size: large;
