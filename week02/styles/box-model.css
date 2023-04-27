@@ -23,7 +23,7 @@
 
 blockquote {
     margin: 15px 60px 15px 30px;
-	text-decoration-color: white;
+
 }
 
 cite {
@@ -31,6 +31,6 @@ cite {
     border-top: solid;
     padding-top: 10%;
     text-align: left;
-    font-size: small;
-	
+    font-size: medium;
+    text-decoration-color: white;
 }
