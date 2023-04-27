@@ -1,3 +1,31 @@
+main {
+    max-width: 840px;
+    margin: auto;
+    border: 0cap;
+    padding: 0%;
+    background-color: crimson;
+    color: wheat;
+    text-align: start;
+}
+
+main img {
+    width:150px;
+    height:auto;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+p {padding: 0;}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
 nav {
     background-color: steelblue;
     padding: 10px;
