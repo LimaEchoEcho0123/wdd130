@@ -32,7 +32,7 @@ blockquote {
 
 cite {
     position: absolute;
-    right: 0px;
+    right: 250px;
     display:inline-block;
     border-top: dotted;
     padding-top: 5%;
