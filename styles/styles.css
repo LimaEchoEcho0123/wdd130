@@ -1,21 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color:  #36ABEF;
+    color: #d90f7b;
+}
 main {
     max-width: 840px;
 }
 
 aside{
+    width: 20em;
     margin: auto;
     border: 0cap;
     padding: 0%;
     background-color: crimson;
     color: wheat;
-    text-align: start;
+    text-align: center;
 }
 
 main img {
     width:150px;
     height:auto;
+    float: right;
 }
-
+aside h2 {
+    position: relative;
+    top: 50px;
+}
 aside img {
     width: 200px;
     height: auto;
