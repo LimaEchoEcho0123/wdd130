@@ -16,7 +16,7 @@
     --nav-hover-background-color: #4C209E;
 }
 
-* {
+/* * {
     margin: 50px;
     padding: 50px;
     box-sizing: border-box;
@@ -101,5 +101,120 @@ footer {
 
 .sociallinks img {
     padding: 20px;
+} */
+
+
+
+* {
+	margin: 5px;
+	padding: 5px;
+    box-sizing: border-box;
+    /* background-color: #6cacd1; */
 }
 
+header {
+    padding: 20px;
+    background-color: #635546;
+    display: grid;
+}
+
+
+body {
+    box-sizing: border-box;
+    /* height: border-box;
+    width: border-box; */
+    background-color: #6cacd1;
+}
+
+.intel {
+    position: relative;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: var(--paragraph-font);
+}
+
+.intel2 {
+    padding-top: 800px;
+    width: 500px;
+    position: relative;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: var(--paragraph-font);
+    float: left;
+}
+
+h1 {
+    width: 1350px;
+    position: absolute;
+    top: 30px;
+    text-align: right;
+    font-size: 5rem;
+    font-family: var(--heading-font);
+
+    
+}
+
+h2 {
+    width: 1000px;
+    position: absolute;
+    top: 200px;
+    text-align: left;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+    
+
+}
+
+article img {
+    float:right;
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #21333d;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#secondheader {
+    width: 1000px;
+    position: absolute;
+    top: 700px;
+    text-align: left;
+    font-size: 2rem;
+    font-family: var(--heading-font);
+}
+
+#history {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 300px;
+    text-align: left;
+    font-size: 1.25rem;
+    font-family: var(--paragraph-font);
+}
+
+#adventure {
+    width: 1000px;
+    position: absolute;
+    top: 900px;
+    text-align: right;
+    font-size: 1.25rem;
+    font-family: var(--paragraph-font);
+}
+
+footer {
+    width: 1000px;
+	position: relative;
+    float: left;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
