@@ -1,26 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
 
-* {
-    box-sizing: border-box;
-    background-color: #6cacd1;
-        /* max-width: 960px; */
-	/* margin: 0;
-	padding: 0; */
-}
-
-h1, h2 {
-    font-size: 14rem;
-    font-family: var(--heading-font);
-    text-shadow: 3px 3px 5px #777;
-}
-
-body {
-    box-sizing: border-box;
-    /* max-width: 960px; */
-    padding: 20px;
-}
-
 :root {
     --primary-color: #0FD8C6;
     --secondary-color: #8EDEFF;
@@ -36,47 +16,56 @@ body {
     --nav-hover-background-color: #4C209E;
 }
 
+* {
+    margin: 50px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #6cacd1;
+}
+
+body {
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: #635546;
+}
+
+h1, h2 {
+    font-size: 14rem;
+    font-family: var(--heading-font);
+    text-shadow: 3px 3px 5px #777;
+    border-bottom: 1px solid #000000;
+}
+
 p {
+    float: right;
     font-family: var(--paragraph-font);
     font-size: 4rem;
     padding: 25px;
 }
 
-h1 {
-    position: absolute;
-    box-sizing: border-box;
-	border-bottom: 1px solid #000000;
-	margin-bottom: 0.3rem;
+.description {
+    float: left;
 }
 
-aside{
+
+aside {
     font-family: var(--heading-font);
     font-size: 20rem;
     float: inline-start;
 }
 
 
-h2 {
-    box-sizing: border-box;
-	text-align: left;
-	text-shadow: 3px 3px 5px #777;
-    /* border-bottom: 1px solid #000000; */
-}
 
 .Title0 {
     display: grid;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid #000000;
 }
 
-header img {
-    padding-top: 50px;
-    padding-bottom: 10px;
-    display: block;
-    width: 500px;
-    height: auto;
-}
 
 .hero img{
     display: block;
@@ -95,17 +84,14 @@ section img {
 }
 
 footer {
-	bottom: 0;
-	margin: 1rem;
-	/* border-top: 1px solid #000; */
-	padding: 0.5rem;
-	color: navy;
 	font-weight: 700;
 	font-style: italic;
     font-size: large;
+    float: left;
 }
 
 .sociallinks {
+    padding-top: 200px;
     float: left;
     height: 200px;
     width: 200px;
@@ -117,6 +103,3 @@ footer {
     padding: 20px;
 }
 
-section{
-    border-bottom: 1px solid #000000;
-}
