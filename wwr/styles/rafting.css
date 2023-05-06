@@ -218,3 +218,10 @@ footer {
     height: 50px;
     float: left;
 }
+
+nav a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 5rem;
+}
