@@ -99,17 +99,6 @@ body {
 }
 
 
-.intel2 {
-    padding-top: 800px;
-    width: 500px;
-    position: absolute;
-    text-align: center;
-    font-size: 1.25rem;
-    font-family: var(--paragraph-font);
-    float: left;
-}
-
-
 h2 {
     width: 840px;
     position: absolute;
@@ -151,67 +140,111 @@ h2 {
     height: auto;
 }
 
-.intel3 {
+.intel {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 800px;
-    width: 500px;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
     position: relative;
-    text-align: center;
-    font-size: 1.25rem;
-    font-family: var(--paragraph-font);
-    float: left;
 }
 
-
-#secondheader {
-    width: 1000px;
-    position: absolute;
-    top: 700px;
-    text-align: left;
+.intel h2{
+    grid-column: 1;
+    grid-row: 1;
     font-size: 2rem;
     font-family: var(--heading-font);
+    float: left;
+}
+.intel p {
+    grid-column: 1;
+    grid-row: 3;
+    font-size: 2rem;
+    font-family: var(--paragraph-font);
 }
 
-#history {
-    width: 1000px;
-    height: 1000px;
+.intel2 {
+    padding-top: 400px;
+    width: 200px;
     position: absolute;
-    top: 300px;
-    text-align: left;
     font-size: 1.25rem;
     font-family: var(--paragraph-font);
 }
 
-#adventure {
-    width: 1000px;
-    position: absolute;
-    top: 900px;
-    text-align: right;
-    font-size: 1.25rem;
-    font-family: var(--paragraph-font);
+.intel2 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    position: relative;
 }
+
+.intel2 figure {
+
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.intel2 figure img {
+    max-width: 220px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.intel2 figure figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+.intel2 figure img-1 {
+    grid-column: 1;
+}
+  
+.intel2 figure img-2 {
+    grid-column: 2;
+}
+  
+.intel2 figure img-3 {
+    grid-column: 3;
+}
+
+.intel2 figure img-4 {
+    grid-column: 4;
+}
+
+.intel2 figure img-5 {
+    grid-column: 5;
+}
+
+
 
 footer {
-    width: 1000px;
-	position: relative;
-    float: left;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    position: relative;
+}
+
+footer p{
+    grid-column: 2/3;
 }
 
 .sociallinks img {
     width: 50px;
     height: 50px;
-    float: left;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    color: var(--nav-link-color);
+    text-decoration: none;
 }
 
-nav a {
+/* .sociallinks a {
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
     font-size: 5rem;
     display: block;
 }
-
+ */
