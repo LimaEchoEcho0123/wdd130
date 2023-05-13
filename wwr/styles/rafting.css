@@ -136,7 +136,7 @@ body {
 .intel2 {
     padding-top: 800px;
     width: 500px;
-    position: relative;
+    position: absolute;
     text-align: center;
     font-size: 1.25rem;
     font-family: var(--paragraph-font);
@@ -224,4 +224,14 @@ nav a {
     text-decoration: none;
     padding: 1rem;
     font-size: 5rem;
+}
+
+.intel3 {
+    padding-top: 800px;
+    width: 500px;
+    position: relative;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: var(--paragraph-font);
+    float: left;
 }
