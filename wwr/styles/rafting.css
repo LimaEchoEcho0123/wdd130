@@ -47,8 +47,8 @@ header {
 }
 
 .hero h1 {
-    grid-template-columns: 1;
-    grid-template-rows: 2;
+    grid-template-columns: 2/3;
+    grid-template-rows: 1/3;
 	font-size: 2rem;
     position: absolute;
     width: 600px;
@@ -72,7 +72,7 @@ nav {
 }
 
 .navigation a {
-	display: end;
+	display: flex;
 	color: navy;
 	padding: 20px;
 	text-decoration: none;
