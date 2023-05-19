@@ -47,8 +47,8 @@ header {
 }
 
 .hero h1 {
-    grid-template-columns: 2/3 ;
-    grid-template-rows: 1/3 ;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
 	font-size: 2rem;
     position: absolute;
     width: 600px;
