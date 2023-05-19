@@ -73,7 +73,7 @@ input, select, textarea {
 
 button {
     margin: 1rem;
-    background-color: brown;
+    background-color: tan;
     color: black;
     border: none;
     border-radius: .5rem;
@@ -82,7 +82,7 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    background-color: burlywood;
 }
 
 footer {
