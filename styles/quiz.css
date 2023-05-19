@@ -47,7 +47,7 @@ fieldset {
 
 legend {
     padding: .5rem;
-    color: bisque;
+    color: brown;
     font-size: 1.3em;
 }
 
@@ -73,7 +73,7 @@ input, select, textarea {
 
 button {
     margin: 1rem;
-    background-color: burlywood;
+    background-color: brown;
     color: darkgray;
     border: none;
     border-radius: .5rem;
