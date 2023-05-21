@@ -296,27 +296,27 @@ fieldset {
 }
 
 .employee1 {
-    width: 400px;
+    width: 300px;
 }
 
 .employee2 {
-    width: 400px;
+    width: 300px;
 }
 
 .employee3 {
-    width: 400px;
+    width: 300px;
 }
 
 .employee1 img {
-    width: 400px;
+    width: 300px;
 }
 
 .employee2 img {
-    width: 400px;
+    width: 300px;
 }
 
 .employee3 img {
-    width: 400px;
+    width: 300px;
 }
 
 
@@ -350,6 +350,7 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    top: 200px;
 }
 
 button:hover {
