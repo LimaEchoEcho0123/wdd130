@@ -355,3 +355,15 @@ button {
 button:hover {
     background-color: burlywood;
 }
+
+h1 {
+    margin: 1rem;
+    font-size: em;
+    color: white;
+    text-align: left;
+    font-family: var(--heading-font);
+    max-width: 1000px;
+    background-color: #635546;
+    white-space: nowrap;
+    
+}
