@@ -32,7 +32,8 @@ header, .grid, footer {
     align-items: center;
 }
 
-main {grid-column: 2/3;
+main {
+    grid-column: 2/3;
     margin: 1rem;
 }
 
@@ -417,3 +418,74 @@ h1 {
     font-size: 1.5rem;
 }
 
+/* Index HTML */
+
+/* #Home */
+
+#Home {
+    margin: 1rem auto;
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 800px;
+    background-color: #635546;
+
+}
+
+img {
+    display: flex;
+    align-content: center;
+}
+
+#Home2 {
+    display: flex;
+    margin: 1rem auto;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 800px;
+    background-color: #635546;
+    top: 800px;
+
+}
+
+.call1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 100px;
+
+}
+
+.call1 h2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.5rem;
+    top: 2000px;
+}
+
+.call2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+.call2 p {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+    font-size: 1.5rem;
+}
